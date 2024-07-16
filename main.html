@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Re-Newzz : Reform the way you read news.</title>
+    <link rel="icon" id="log" href="renewzz.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar container flex">
+            
+            <a href="#" class="logo" onclick="reload()">
+                <img src="6.png"  alt="company">
+                <h1></h1>
+            </a>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li class="link" id="Trending" onclick="onNavItemClick('Trending')">Trending</li>
+                    <li class="link" id=" " onclick="onNavItemClick('')">For You</li>
+                    <li class="link" id="Sports" onclick="onNavItemClick('Sports')">Sports</li>
+                    <li class="link" id="Finance" onclick="onNavItemClick('Finance')">Finance</li>
+                    <li class="link" id="Politics" onclick="onNavItemClick('Politics')">Politics</li>
+                    <li class="link" id="Technology" onclick="onNavItemClick('Technology')">Tech</li>   
+                    <li class="link" id="India" onclick="onNavItemClick('India')">India</li> 
+                </ul>
+            </div>
+            <div class="search-bar flex">
+                <input id="search-text" type="text" class="news-input" placeholder="e.g. Science">
+                <button id="search-button" class="search-button" >Search</button>
+            </div>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Profile</button>
+                <div id="myDropdown" class="dropdown-content">
+                  
+                  <a href="index.html">Logout</a>
+                  
+                </div>
+              </div>
+            
+        </div>
+    </nav>
+
+    
+        <main>
+        <div class="cards-container container flex" id="cards-container">
+            
+        </div>
+       </main>
+
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+            </div>
+        </div>
+    </template>
+    
+
+    
+</body>
+<script src="script.js"></script>
+</html>

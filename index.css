@@ -1,0 +1,116 @@
+
+
+body{
+    background-image: url(n.png);
+    background-size: cover;
+    background-color: black;
+    background-attachment: fixed;
+   
+}
+
+nav{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    gap: 80px;
+    background-color: rgb(86, 50, 7);
+    border-radius: 10px;
+}
+
+.ig{
+    margin-left: 80px;
+    width: 13%;
+    cursor: pointer;
+    
+}
+nav ul{
+    padding-left: 35px;
+    flex: 1; 
+}
+nav ul li{
+    display: inline;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav .btn{
+    color: #fff;
+    text-decoration:none;
+    border: 1px solid#fff;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-right: 10%;
+}
+#login{
+    backdrop-filter: blur(15px);
+    text-align: center  ;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding-bottom: 40px;
+}
+#signup{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 10px 10px 10px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+#signup:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#text{
+    backdrop-filter: blur(5px);
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#login2{
+    background-image: url(2.png);
+    background-size: 50%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 10%;
+    font-size: larger;
+}
+#cont{
+    padding-bottom: 20px;
+}
+#login3{
+    background-image: url(c2.png);
+    margin-top: 30px;
+    border-radius: 15px;
+    color:azure;
+    background-size: cover;
+    padding-left: 20%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+   
+}
+#ig2{
+    width: 50vh;
+    margin-left: 70%;
+}
+#info{
+    color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#logo{
+    width: 80vh;
+   
+    margin-top: 5%;
+    border-radius: 20px;
+    
+}
+
